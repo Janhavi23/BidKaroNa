@@ -52,6 +52,7 @@ export default class cropPrice extends Component {
 				<div>
 					<Navbar history={this.props.history} />
 					<div className='croplist'/>
+					<div className = 'warning'>*Prices are per quintal</div>
 					<table>
 						<thead>
 							<tr>
